@@ -112,7 +112,7 @@ export const destinations: Destination[] = [
     title: "Teluk Atong",
     description: "Pantai ini dikenal karena atong adalah orang pertama yang mendirikan penginapan di kawasan ini.",
     fullDescription: "Pantai ini dikenal karena atong adalah orang pertama yang mendirikan penginapan di kawasan ini, daerah yang dulunya paling ujung dan dekat dengan hutan lindung Tanjung Datuk. Sekarang semakin ramai karena jalur menuju atong bahari sudah menjadi jalur utama wisata Desa Temajuk. Karakteristik pantai ini sama dengan pantai Camar Bulan, namun perbedaannya adalah ketika surut batu karang akan terhampar luas didepan pantai dan ketika air pasang kita bisa melakukan snorkeling disekitar pantai ini.",
-    imageUrl: "images/teluk-atong.jpg",
+    imageUrl: "https://i.ibb.co.com/N61FngnV/teluk-atong.jpg",
     category: "Teluk",
     price: "Rp 15.000",
     location: "Desa Temajuk, Kecamatan Paloh, Kabupaten Sambas",

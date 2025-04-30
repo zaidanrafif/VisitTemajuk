@@ -118,12 +118,20 @@ const PhotoSpotDetail: React.FC = () => {
             <div className="bg-white p-6 rounded-lg shadow-md sticky top-24">
               <h3 className="text-xl font-semibold text-gray-800 mb-4">Lokasi</h3>
               <div className="aspect-video bg-gray-200 rounded-lg mb-6 overflow-hidden">
-                {/* Placeholder for map (in a real app, this would be an actual map) */}
-                <div className="w-full h-full flex items-center justify-center bg-gray-200">
-                  <MapPin className="h-8 w-8 text-primary" />
-                  <span className="ml-2 text-gray-700">Peta Lokasi</span>
-                </div>
-              </div>
+  <a
+    href="https://www.google.com/maps/place/Pantai+Temajuk"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="block w-full h-full"
+  >
+    <img
+      src="/images/peta-temajuk.jpg" // atau pakai Static Map jika mau
+      alt="Peta Lokasi Pantai Temajuk"
+      className="w-full h-full object-cover"
+    />
+  </a>
+</div>
+
 
               <h3 className="text-xl font-semibold text-gray-800 mb-4">Atraksi Terdekat</h3>
               <div className="border-t border-gray-200 pt-4 mb-6">

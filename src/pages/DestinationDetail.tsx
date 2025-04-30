@@ -105,6 +105,7 @@ const DestinationDetail: React.FC = () => {
               <div className="flex flex-wrap gap-2 mb-6">
                 {destination.activities.map((activity, index) => (
                   <span
+
                     key={index}
                     className="bg-accent bg-opacity-20 text-primary-dark px-3 py-1 rounded-full text-sm"
                   >
@@ -146,12 +147,20 @@ const DestinationDetail: React.FC = () => {
             <div className="bg-white p-6 rounded-lg shadow-md sticky top-24">
               <h3 className="text-xl font-semibold text-gray-800 mb-4">Lokasi</h3>
               <div className="aspect-video bg-gray-200 rounded-lg mb-6 overflow-hidden">
-                {/* Placeholder for map (in a real app, this would be an actual map) */}
-                <div className="w-full h-full flex items-center justify-center bg-gray-200">
-                  <MapPin className="h-8 w-8 text-primary" />
-                  <span className="ml-2 text-gray-700">Peta Lokasi</span>
-                </div>
-              </div>
+  <a
+    href="https://maps.app.goo.gl/tbM3tYfYxtNvBaYw5"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="block w-full h-full"
+  >
+    <img
+      src="/images/maps-pantai-temajuk.png" // atau pakai Static Map jika mau
+      alt="Peta Lokasi Pantai Temajuk"
+      className="w-full h-full object-cover"
+    />
+  </a>
+</div>
+
 
               <h3 className="text-xl font-semibold text-gray-800 mb-4">Informasi Lainnya</h3>
               <div className="border-t border-gray-200 pt-4">
