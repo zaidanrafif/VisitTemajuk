@@ -1,3 +1,3 @@
-[submodule "visit-temajuk"]
-    path = visit-temajuk
+[submodule "VisitTemajuk"]
+    path = VisitTemajuk
     url = https://github.com/zaidanrafif/VisitTemajuk.git
