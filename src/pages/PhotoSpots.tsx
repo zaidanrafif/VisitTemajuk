@@ -99,7 +99,7 @@ const PhotoSpots: React.FC = () => {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mt-8">
             <div className="bg-white p-6 rounded-lg shadow-md">
               <img
-                src="https://images.pexels.com/photos/3062948/pexels-photo-3062948.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                src="https://www.kelasgarasi.com/wp-content/uploads/2023/12/golden-hour-kelas-garasi.jpg"
                 alt="Golden Hour"
                 className="w-full h-48 object-cover rounded-md mb-4"
               />
@@ -138,7 +138,7 @@ const PhotoSpots: React.FC = () => {
 
             <div className="bg-white p-6 rounded-lg shadow-md">
               <img
-                src="https://images.pexels.com/photos/2253275/pexels-photo-2253275.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                src="https://images.pexels.com/photos/691909/pexels-photo-691909.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
                 alt="Silhouettes"
                 className="w-full h-48 object-cover rounded-md mb-4"
               />
